@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+   
+}
+.background-image{
+    background-image: url(bgseasons.png);
+    background-size: cover; 
+  background-position: center; 
+  height: 120vh; 
+  width: 100vw;
+ 
+}
+.container{
+    display: flex;
+   gap: 20px; 
+   height: 350px;
+   align-items: center;
+}
+
+.item{
+    width: 200px;
+    font-size: 1rem;
+    padding: 8px;
+color: black;
+text-align: center;
+border-radius: 10px;
+flex-shrink: 1;
+}
+.item1{
+    background-color: rgb(178, 200, 202);
+ align-self: center;
+margin-left: 170px;
+margin-top: 200px;
+box-shadow: 3px 3px 3px #ccc,4px 4px 4px palevioletred;
+
+}
+.item2{
+    background-color: rgb(178, 200, 202);
+  align-self: flex-start;
+  margin-bottom: -150px;
+   box-shadow: 3px 3px 3px #ccc,4px 4px 4px red;
+}
+.item3{
+    background-color: rgb(178, 200, 202);
+    align-self: center;
+    margin-top: 200px;
+    box-shadow: 3px 3px 3px #ccc, 4px 4px 4px rgb(119, 119, 121);
+}
+.item4{
+    background-color:  rgb(178, 200, 202);
+  align-self: flex-start;
+  margin-bottom: -150px;
+   box-shadow: 3px 3px 3px #ccc, 4px 4px 4px rgb(90, 25, 90);
+}
+img{
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px black;
+    flex-shrink: 1;
+}
+.marquee{
+text-shadow:3px 3px 3px #ccc,3px 3px 3px black ;
+color: rgb(10, 10, 10);
+}
